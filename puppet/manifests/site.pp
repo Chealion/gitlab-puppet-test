@@ -8,7 +8,7 @@
 #This is the syntax to create a mysql server in puppetlabs-mysql version > 2.0.0
 #Use caution as it could overwrite an existing database
 class { 'mysql::server':
-  root_password   => 'PGnCp2qv,nWYV3qxTUw', 
+  root_password   => 'PGnCp2qnWYV3qxTUw', 
 }
 
 class { 'gitlab' : 
@@ -25,7 +25,7 @@ class { 'gitlab' :
   gitlab_dbtype          => 'mysql',
   gitlab_dbname          => 'gitlab_db',
   gitlab_dbuser          => 'gitlab_user',
-  gitlab_dbpwd           => 'PGnCp2qv$nWYV3qxTUw',
+  gitlab_dbpwd           => 'PGnCp2qnWYV3qxTUwvv',
   gitlab_dbhost          => 'localhost',
   gitlab_dbport          => '3306',
 

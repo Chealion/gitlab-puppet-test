@@ -42,4 +42,7 @@ sudo add-apt-repository -y ppa:brightbox/ruby-ng
 sudo apt-get update
 sudo apt-get install -y git wget puppet vim iotop iftop htop python-software-properties ruby2.1 ruby2.1-dev
 
+sudo update-alternatives --set ruby /usr/bin/ruby2.1
+sudo update-alternatives --set gem /usr/bin/gem2.1
+
 touch /.provisioned

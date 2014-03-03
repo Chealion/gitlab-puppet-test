@@ -6,3 +6,6 @@ https://forge.puppetlabs.com/spuder/gitlab/1.7.0
 The dependency modules are just copied in here.
 
 `vagrant up --provider openstack` and away you go.
+
+
+Make sure port 443 is open in your Security Group
